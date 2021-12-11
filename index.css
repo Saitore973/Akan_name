@@ -1,4 +1,10 @@
 .card{
     font-size:30px;
     text-align:center;
+    background-color: rgb(192, 229, 229);
+    line-height:60px;
+}
+.card h3{
+    font-size:40px;
+    font-weight:bolder;
 }
