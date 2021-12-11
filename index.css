@@ -8,3 +8,6 @@
     font-size:40px;
     font-weight:bolder;
 }
+.card button {
+    background-color:cyan
+}
