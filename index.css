@@ -3,6 +3,14 @@
     text-align:center;
     background-color: rgb(192, 229, 229);
     line-height:60px;
+    
+}
+.card-title {
+    padding: 50px;
+}
+.card-body{
+
+    padding-bottom: 200px;
 }
 .card h3{
     font-size:40px;
