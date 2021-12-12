@@ -10,12 +10,22 @@
 }
 .card-body{
 
-    padding-bottom: 200px;
+    padding-bottom: 120px;
 }
 .card h3{
     font-size:40px;
     font-weight:bolder;
 }
 .card button {
-    background-color:cyan
+    background-color:cyan;
+    margin-top: 70px;
+    padding: 3px 30px;
+    border: none;
+    border-radius:25px;
+    
+}
+
+.card button:hover {
+    background-color:white!important;
+    color: cyan;
 }
