@@ -48,3 +48,36 @@ span{
     background-color:white!important;
     color: cyan;
 }
+
+  .forms-container{
+    justify-content: center;
+    width: auto;
+    padding: 40px;
+    
+}
+  .formbackground{
+    box-shadow: 0px 8px 12px 2px rgb(0,0,0,0.24);
+    padding: 2rem;
+    background-color: rgb(192, 229, 229);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+      }
+#btn{
+    background-color:cyan;
+    margin-top: 70px;
+    padding: 3px 30px;
+    border: none;
+    border-radius:25px;
+}
+
+.btn button:hover {
+    background-color:white!important;
+    color: cyan;
+}
+
+.curious{
+    background-color: azure;
+    text-align: center;
+    padding-top: 50px;
+}
