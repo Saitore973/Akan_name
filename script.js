@@ -19,4 +19,26 @@ function AkanDay(year, month, day) {
 
 }
 
+var button = document.querySelector('#btn');
+
+
+function getName() {
+  let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  let weekDays = ["sunday", "monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  let index = AkanDay();
+  var maleGender = document.querySelector("#male")
+  var femaleGender = document.querySelector("#female")
+  var kwasiNames;
+  if (weekDays[index] && maleGender.checked) {
+    kwasiNames = maleNames[index] + "💪🏿"
+  }
+  if (weekDays[index] && femaleGender.checked) {
+    kwasiNames = femaleNames[index] + "👧🏿"
+  }
+  var name = document.querySelector('.name');
+  name.innerHTML = kwasiNames;
+
+
+}
 

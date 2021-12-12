@@ -85,4 +85,9 @@ span{
     justify-content: right;
     width: auto;
     padding: 40px;
+    background-color:azure;
+}
+
+.name{
+    background-color:cyan;
 }
