@@ -91,3 +91,8 @@ span{
 .name{
     background-color:cyan;
 }
+.card-footer{
+    background-color:cyan;
+    text-align: center;
+    padding:20px
+}

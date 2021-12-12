@@ -58,4 +58,10 @@ function validate(){
     }
   }
   
+  button.addEventListener('click', () => {
+    getName();
+    validate()
+    let results = document.querySelector('#results');
+    results.style.opacity = 1;
+  })
   
