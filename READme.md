@@ -25,7 +25,7 @@ This project is a web application that takes a user's birthday and calculates th
 
 ## LiveLink
 
-
+https://saitore973.github.io/Akan_name/
 ## Known Bugs 
 
 There are no known bugs at the moment but if any spotted you can reach me via saitorevg@gmail.com
