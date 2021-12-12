@@ -81,3 +81,8 @@ span{
     text-align: center;
     padding-top: 50px;
 }
+#results{
+    justify-content: right;
+    width: auto;
+    padding: 40px;
+}
