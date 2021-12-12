@@ -1,9 +1,26 @@
+.container-fluid{
+    background-color: azure;
+}
+.jumbotron{
+    background-color:azure !important;
+    text-align: center;
+    color: cyan;
+    font-weight: bolder!important;
+}
+.jumbotron hr{
+    
+}
 .card{
     font-size:30px;
     text-align:center;
     background-color: rgb(192, 229, 229);
     line-height:60px;
+    border: none;
     
+}
+span{
+    color: black;
+    font-weight:bolder;
 }
 .card-title {
     padding: 50px;
