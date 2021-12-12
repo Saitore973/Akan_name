@@ -42,3 +42,20 @@ function getName() {
 
 }
 
+function validate(){
+    let year = document.getElementById("year").value;
+    let month = document.getElementById("month").value;
+    let day = document.getElementById("day").value;
+  
+    if( year === null || year<1){
+      alert("please enter your correct year of birth")
+    }
+    if( month === null || month>12 || month<1){
+      alert("please enter your correct month of birth")
+    }
+    if( day=== null || day >31 ||day<1 ){
+      alert("please enter your correct day of birth")
+    }
+  }
+  
+  
