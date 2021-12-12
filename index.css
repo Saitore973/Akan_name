@@ -8,7 +8,9 @@
     font-weight: bolder!important;
 }
 .jumbotron hr{
-    
+    width: 150px;
+    height: 3px;;
+    background-color: cyan !important;
 }
 .card{
     font-size:30px;
